@@ -1,0 +1,24 @@
+# requirements.txt
+
+# Pustaka utama untuk Data Science dan Machine Learning
+pandas
+numpy
+scikit-learn
+
+# Pustaka untuk pembuatan aplikasi web
+streamlit
+
+# Pustaka standar yang digunakan untuk menyimpan model, biasanya sudah ada di Python
+# Namun, menyertakannya memastikan lingkungan memiliki modul yang tepat
+# (pickle adalah modul standar, tapi ini memastikan kompatibilitas)
+# Tidak perlu dicantumkan, tetapi ini adalah pustaka yang digunakan:
+# pickle
+
+# Jika Anda menggunakan teknik lanjutan seperti SMOTE, tambahkan ini:
+# imbalanced-learn 
+
+# Versi yang direkomendasikan (gunakan ini jika Anda mengalami masalah kompatibilitas):
+# pandas==2.1.4
+# numpy==1.26.3
+# scikit-learn==1.3.2
+# streamlit==1.29.0
